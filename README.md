@@ -5,6 +5,9 @@
 - More features aimed at modpack specific tools (perhaps things designed to modify RF, modify things in Tinkers Construct, etc)
 
 ## Thank you
+[iBuyMountainDew](https://github.com/iBuyMountainDew) & [l1ving](https://github.com/l1ving) for KAMI Blue (and including the trans rights array list option <3)
+
+[Alexander01998](https://github.com/Alexander01998) For being the dude who made me wanna learn how to do this stuff in the first place & for making Wurst V7 Open Source.
 
 [zeroeightysix](https://github.com/zeroeightysix) for the original [KAMI](https://github.com/zeroeightysix/KAMI)
 
