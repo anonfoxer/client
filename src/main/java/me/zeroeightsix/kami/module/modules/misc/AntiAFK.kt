@@ -27,7 +27,7 @@ import kotlin.random.Random
 @Module.Info(
         name = "AntiAFK",
         category = Module.Category.MISC,
-        description = "Prevents being kicked for AFK"
+        description = "Prevents AFK Kicks"
 )
 object AntiAFK : Module() {
     private val delay = register(Settings.integerBuilder("ActionDelay").withValue(50).withRange(0, 100).build())
