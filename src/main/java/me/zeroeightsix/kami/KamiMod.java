@@ -45,27 +45,27 @@ import java.nio.charset.Charset;
 )
 public class KamiMod {
 
-    public static final String MODNAME = "KAMI Blue";
-    public static final String MODID = "kamiblue";
-    public static final String VER_FULL_BETA = "v1.1.7-beta"; // this is changed to v1.x.x-commit for debugging by automatic builds
-    public static final String VER_SMALL = "v1.1.7-beta"; // shown to the user, unchanged
-    public static final String VER_STABLE = "v1.1.6"; // used for update checking
+    public static final String MODNAME = "KAMI Red";
+    public static final String MODID = "kamired";
+    public static final String VER_FULL_BETA = "v0.0.1-alpha"; // this is changed to v1.x.x-commit for debugging by automatic builds
+    public static final String VER_SMALL = "v0.0.1-alpha"; // shown to the user, unchanged
+    public static final String VER_STABLE = "v0.0.1-alpha"; // used for update checking
 
-    public static final String APP_ID = "638403216278683661";
+    //public static final String APP_ID = "638403216278683661";
 
-    public static final String DOWNLOADS_API = "https://kamiblue.org/api/v1/downloads.json";
-    public static final String DONATORS_JSON = "https://raw.githubusercontent.com/kami-blue/assets/assets/assets/donators.json";
-    public static final String CAPES_JSON = "https://raw.githubusercontent.com/kami-blue/assets/assets/assets/capes.json";
-    public static final String GITHUB_LINK = "https://github.com/kami-blue/";
-    public static final String WEBSITE_LINK = "https://kamiblue.org";
+    //public static final String DOWNLOADS_API = "https://kamiblue.org/api/v1/downloads.json";
+    //public static final String DONATORS_JSON = "https://raw.githubusercontent.com/kami-blue/assets/assets/assets/donators.json";
+    //public static final String CAPES_JSON = "https://raw.githubusercontent.com/kami-blue/assets/assets/assets/capes.json";
+    //public static final String GITHUB_LINK = "https://github.com/kami-blue/";
+    //public static final String WEBSITE_LINK = "https://kamiblue.org";
 
-    public static final String KAMI_KANJI = "\u30ab\u30df\u30d6\u30eb";
-    public static final char colour = '\u00A7';
+    public static final String KAMI_KANA = "Kami";
+    public static final char colour = '\u001B';
     public static final char separator = '|';
 
-    private static final String KAMI_CONFIG_NAME_DEFAULT = "KAMIBlueConfig.json";
+    private static final String KAMI_CONFIG_NAME_DEFAULT = "KAMIRedConfig.json";
 
-    public static final Logger log = LogManager.getLogger("KAMI Blue");
+    public static final Logger log = LogManager.getLogger("KAMI Red");
 
     public static final EventBus EVENT_BUS = new EventManager();
 
@@ -100,7 +100,7 @@ public class KamiMod {
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event) {
         if (CommandConfig.INSTANCE.getCustomTitle().getValue()) {
-            Display.setTitle(MODNAME + " " + KAMI_KANJI + " " + VER_SMALL);
+            Display.setTitle(MODNAME + " " + KAMI_KANA + " " + VER_SMALL);
         }
     }
 
