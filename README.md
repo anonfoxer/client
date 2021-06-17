@@ -1,26 +1,8 @@
-[![CodeFactor](https://www.codefactor.io/repository/github/kami-blue/client/badge)](https://www.codefactor.io/repository/github/kami-blue/client)
-[![Build Status features-master](https://img.shields.io/travis/com/kami-blue/client/master?logo=gradle&label=build)](https://travis-ci.com/kami-blue/client)
-[![Discord Mine](https://img.shields.io/discord/573954110454366214?label=chat&logo=discord&logoColor=white)](https://discord.gg/KfpqwZB)
-[![HitCount](http://hits.dwyl.com/kami-blue/client.svg)](http://hits.dwyl.com/kami-blue/client)
+## Roadmap
 
-[![Paypal](https://img.shields.io/badge/paypal-donate-red?color=169bd7&logo=paypal)](https://paypal.me/mik4a/5USD)
-[![BTC](https://img.shields.io/badge/btc-donate-red?color=f08b16&logo=bitcoin)](https://www.blockchain.com/btc/address/19pH4aNZZMPJkqQ2826BauRokyBs1NYon7)
-
-Please consider donating to help continue this project and get a unique cape in game. 
-
-***
-
-## Looking for maintainers. 
-
-Please check [l1ving's](https://github.com/l1ving) profile for contact methods. 
-
-Due to this project rapidly expanding we're in need of Kotlin maintainers who can review pull requests and preferably have experience working with either Minecraft / Forge or GL before.
-
-***
-
-## Help and documentation
-
-Please go to [https://kamiblue.org](https://kamiblue.org) for documentation and help.
+- Clean up original code of KAMI-Blue, removing unnecessary features. This will see the removal of most combat/anarchy tools, and will generally make the install more lightweight.
+- UI Tweaks and cleanups.
+- More features aimed at modpack specific tools (perhaps things designed to modify RF, modify things in Tinkers Construct, etc)
 
 ## Thank you
 
@@ -35,6 +17,3 @@ Please go to [https://kamiblue.org](https://kamiblue.org) for documentation and 
 The [Minecraft Forge team](https://github.com/MinecraftForge) for [forge](https://files.minecraftforge.net/)
 
 All the [contributors](https://github.com/kami-blue/client/graphs/contributors), including the ones who will be remembered in comments and in our hearts. This has been a huge community effort and I couldn't have done it without them.
-
-## Star Chart
-[![Stargazers over time](https://starchart.cc/kami-blue/client.svg)](https://starchart.cc/kami-blue/client)
